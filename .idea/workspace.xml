@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ba4c8d-e239-4c1e-946b-b8d04e81931c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js/lib/webpack-multi-config.js" afterPath="$PROJECT_DIR$/gulpfile.js/lib/webpack-multi-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/index.html" afterPath="$PROJECT_DIR$/src/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/layouts/application.html" afterPath="$PROJECT_DIR$/src/html/layouts/application.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/macros/helpers.html" afterPath="$PROJECT_DIR$/src/html/macros/helpers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/customers.html" afterPath="$PROJECT_DIR$/src/html/main/customers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/docs.html" afterPath="$PROJECT_DIR$/src/html/main/docs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/feedback.html" afterPath="$PROJECT_DIR$/src/html/main/feedback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/hero.html" afterPath="$PROJECT_DIR$/src/html/main/hero.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/map.html" afterPath="$PROJECT_DIR$/src/html/main/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/product.html" afterPath="$PROJECT_DIR$/src/html/main/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/production.html" afterPath="$PROJECT_DIR$/src/html/main/production.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/use.html" afterPath="$PROJECT_DIR$/src/html/main/use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/shared/footer.html" afterPath="$PROJECT_DIR$/src/html/shared/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/shared/header.html" afterPath="$PROJECT_DIR$/src/html/shared/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javascripts/modules/common.js" afterPath="$PROJECT_DIR$/src/javascripts/modules/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javascripts/modules/product-slider.js" afterPath="$PROJECT_DIR$/src/javascripts/modules/product-slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javascripts/modules/scroll-to.js" afterPath="$PROJECT_DIR$/src/javascripts/modules/scroll-to.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_buttons.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_common.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_feedback.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_feedback.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_fonts.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_footer.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_forms.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_grid.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_header.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_hero.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_hero.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_icon.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_icon.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_main.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_product-slider.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_product-slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_sprite.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_sprite.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_typo.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_typo.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_variables.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/app.scss" afterPath="$PROJECT_DIR$/src/stylesheets/app.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,18 +52,8 @@
       <file leaf-file-name="feedback.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/main/feedback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/main/docs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="139" lean-forward="false" selection-start-line="0" selection-start-column="139" selection-end-line="0" selection-end-column="139" />
+            <state relative-caret-position="204">
+              <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -110,17 +69,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="634">
+              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -133,8 +92,8 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1348">
-              <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+            <state relative-caret-position="1433">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -169,6 +128,7 @@
       <find>youtube</find>
       <find>embe</find>
       <find>embed</find>
+      <find>Эл</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/stylesheets/_typo.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_variables.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_feedback.scss" />
-        <option value="$PROJECT_DIR$/src/html/main/feedback.html" />
         <option value="$PROJECT_DIR$/src/stylesheets/app.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_common.scss" />
         <option value="$PROJECT_DIR$/src/html/main/map.html" />
@@ -210,12 +169,13 @@
         <option value="$PROJECT_DIR$/src/html/main/production.html" />
         <option value="$PROJECT_DIR$/src/html/main/product.html" />
         <option value="$PROJECT_DIR$/src/html/main/hero.html" />
-        <option value="$PROJECT_DIR$/src/html/main/docs.html" />
         <option value="$PROJECT_DIR$/src/html/main/customers.html" />
         <option value="$PROJECT_DIR$/src/html/shared/header.html" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_main.scss" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/common.js" />
         <option value="$PROJECT_DIR$/src/html/layouts/application.html" />
+        <option value="$PROJECT_DIR$/src/html/main/docs.html" />
+        <option value="$PROJECT_DIR$/src/html/main/feedback.html" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_main.scss" />
       </list>
     </option>
   </component>
@@ -366,7 +326,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="common&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;main&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_main.scss&#10;header&#9;FILE&#9;file://A:/web/abis/src/html/shared/header.html&#10;embed&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;embed.&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;var&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_variables.scss&#10;common.&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;icon&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss&#10;feedback&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_feedback.scss&#10;typo.&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_typo.scss&#10;icon.scs&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_main.scss&#10;doc&#9;FILE&#9;file://A:/web/abis/src/html/main/docs.html&#10;common&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;header&#9;FILE&#9;file://A:/web/abis/src/html/shared/header.html&#10;embed&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;embed.&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;var&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_variables.scss&#10;common.&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;icon&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss&#10;feedback&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_feedback.scss&#10;typo.&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_typo.scss&#10;icon.scs&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -393,12 +353,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512983702923</updated>
-      <workItem from="1512983720732" duration="8006000" />
+      <workItem from="1512983720732" duration="8706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8006000" />
+    <option name="totallyTimeSpent" value="8706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -604,7 +564,7 @@
         <state relative-caret-position="986">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <marker date="1512990769304" expanded="true" signature="31:419" ph="{...}" />
+            <marker date="1512993469998" expanded="true" signature="31:419" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -713,22 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/main/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/main/docs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="139" lean-forward="false" selection-start-line="0" selection-start-column="139" selection-end-line="0" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/main/customers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -745,28 +689,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_main.scss">
+    <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/main/docs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="74" lean-forward="false" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1348">
-          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+        <state relative-caret-position="1433">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/layouts/application.html">
+    <entry file="file://$PROJECT_DIR$/src/html/main/feedback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="204">
+          <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding />
         </state>
       </provider>
