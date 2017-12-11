@@ -1,27 +1,33 @@
 {% from 'macros/helpers.html' import sprite %}
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{% block title %}{{ title }}{% endblock %}</title>
-    <link rel="stylesheet" href="stylesheets/app.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    {% block head %}{% endblock %}
-  </head>
-  <body class="page">
-    {% block header %}
-      {% include "shared/header.html" %}
-    {% endblock %}
-    <div class="page-content">
-      {% block content %}{% endblock %}
-    </div>
-    {% block footer %}
-      {% include "shared/footer.html" %}
-    {% endblock %}
-    {% block javascript %}
-      <script src="javascripts/jquery.min.js"></script>
-      <script src="javascripts/app.js"></script>
-    {% endblock %}
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>{% block title %}{{ title }}{% endblock %}</title>
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta property="og:image" content="images/abis.jpg" />
+  <meta name="twitter:image:src" content="images/abis.jpg" />
+  <meta property="og:title" content="Эбис" />
+  <meta property="og:description" content="Эбис - производство вторичных полимеров из пластиковых отходов" />
+  {% block head %}{% endblock %}
+</head>
+<body class="page">
+{% block header %}
+{% include "shared/header.html" %}
+{% endblock %}
+<div class="page-content">
+  {% block content %}{% endblock %}
+</div>
+{% block footer %}
+{% include "shared/footer.html" %}
+{% endblock %}
+{% block javascript %}
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="javascripts/jquery.min.js"></script>
+<script src="javascripts/app.js"></script>
+{% endblock %}
+</body>
 </html>

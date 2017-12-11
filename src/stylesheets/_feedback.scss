@@ -3,8 +3,31 @@
   & > .container {
     height: 560px;
   }
-  
+
+  & > .container {
+    position: relative;
+  }
+
   &-footer {
     padding-top: .625em;
+  }
+
+  &-modal {
+    &.modal {
+      position: absolute;
+      width: auto;
+      overflow: visible;
+      left: -15px;
+      right: -15px;
+
+      .modal-dialog {
+        max-width: none;
+      }
+
+      .modal-content {
+        box-shadow: 0 0 43px rgba($black, .15);
+        height: 340px;
+      }
+    }
   }
 }

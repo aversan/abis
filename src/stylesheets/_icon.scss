@@ -23,26 +23,34 @@
   }
 
   &.icon-rarr-white {
-    @include sprite('icon-rarr-white'); 
+    @include sprite('icon-rarr-white');
   }
 
   &.icon-youtube-white {
-    @include sprite('icon-youtube-white'); 
+    @include sprite('icon-youtube-white');
   }
 
   &.icon-arrow-prev-white {
-    @include sprite('icon-arrow-prev-white'); 
+    @include sprite('icon-arrow-prev-white');
   }
 
   &.icon-arrow-next-white {
-    @include sprite('icon-arrow-next-white'); 
+    @include sprite('icon-arrow-next-white');
   }
 
   &.icon-arrow-prev-light {
-    @include sprite('icon-arrow-prev-light'); 
+    @include sprite('icon-arrow-prev-light');
   }
 
   &.icon-arrow-next-light {
-    @include sprite('icon-arrow-next-light'); 
+    @include sprite('icon-arrow-next-light');
+  }
+
+  &.icon-send-primary {
+    @include sprite('icon-send-primary');
+  }
+
+  &.icon-close-primary {
+    @include sprite('icon-close-primary');
   }
 }

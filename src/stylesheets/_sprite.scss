@@ -16,6 +16,10 @@
       height: 87px;
       width: 43px;
     }
+    @if $filename == icon-close-primary {
+      height: 40px;
+      width: 40px;
+    }
     @if $filename == icon-email-primary {
       height: 21px;
       width: 27px;
@@ -27,6 +31,10 @@
     @if $filename == icon-rarr-white {
       height: 7px;
       width: 25px;
+    }
+    @if $filename == icon-send-primary {
+      height: 57px;
+      width: 110px;
     }
     @if $filename == icon-youtube-white {
       height: 22px;
@@ -36,42 +44,52 @@
 
   &::before {
     @if $filename == icon-arrow-next-light {
-      background-position: -86px 0px;
+      background-position: -110px 0px;
       height: 76px;
       width: 43px;
     }
     @if $filename == icon-arrow-next-white {
-      background-position: 0px 0px;
+      background-position: 0px -57px;
       height: 87px;
       width: 43px;
     }
     @if $filename == icon-arrow-prev-light {
-      background-position: -129px 0px;
+      background-position: -153px 0px;
       height: 76px;
       width: 43px;
     }
     @if $filename == icon-arrow-prev-white {
-      background-position: -43px 0px;
+      background-position: -43px -57px;
       height: 87px;
       width: 43px;
     }
+    @if $filename == icon-close-primary {
+      background-position: -153px -76px;
+      height: 40px;
+      width: 40px;
+    }
     @if $filename == icon-email-primary {
-      background-position: -31px -87px;
+      background-position: -110px -76px;
       height: 21px;
       width: 27px;
     }
     @if $filename == icon-email-white {
-      background-position: -58px -87px;
+      background-position: -110px -97px;
       height: 21px;
       width: 27px;
     }
     @if $filename == icon-rarr-white {
-      background-position: -129px -76px;
+      background-position: -110px -118px;
       height: 7px;
       width: 25px;
     }
+    @if $filename == icon-send-primary {
+      background-position: 0px 0px;
+      height: 57px;
+      width: 110px;
+    }
     @if $filename == icon-youtube-white {
-      background-position: 0px -87px;
+      background-position: -153px -116px;
       height: 22px;
       width: 31px;
     }

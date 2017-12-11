@@ -1,5 +1,5 @@
 body {
-	min-width: 1280px;
+  min-width: 1280px;
 }
 
 .disable-hover,
@@ -15,4 +15,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
-} 
+}
+
+.vertical-align-helper {
+  display:table;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.vertical-align-center {
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events: none;
+}

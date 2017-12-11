@@ -7,7 +7,7 @@
     .product-slider[data-type="alt"] & {
       margin-right: 5.625rem;
     }
-    
+
     &-image-wrapper,
     &-title,
     &-description {
@@ -35,7 +35,7 @@
         top: 0;
         right: 0;
         bottom: 0;
-        z-index: 1;        
+        z-index: 1;
       }
     }
   }
@@ -76,7 +76,7 @@
   &-container {
     &.swiper-container {
       padding: 26px;
-      margin: -26px;      
+      margin: -26px;
     }
   }
 
@@ -93,7 +93,7 @@
     .product-slider-slide {
       &-link {
         color: $white;
-      }      
+      }
     }
   }
 
@@ -110,7 +110,7 @@
     .product-slider-slide {
       &-link {
         color: $white;
-      }      
+      }
     }
   }
 
@@ -162,7 +162,7 @@
         background-color: $gray-200;
       }
     }
-  } 
+  }
 
   // product
 
@@ -172,5 +172,5 @@
       top: auto;
       bottom: 0;
     }
-  } 
+  }
 }

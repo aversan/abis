@@ -41,6 +41,9 @@ module.exports = function (env) {
         $: 'jquery',
         jquery: 'jquery',
         'window.jQuery': 'jquery',
+        Util: 'exports-loader?Util!bootstrap/js/dist/util',
+        Modal: 'exports-loader?Modal!bootstrap/js/dist/modal',
+        Button: 'exports-loader?Button!bootstrap/js/dist/button',
       })
     ],
     resolve: {

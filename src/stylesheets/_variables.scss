@@ -23,15 +23,15 @@ $black: #000;
 
 $grays: ();
 $grays: map-merge((
-//   "100": $gray-100,
-   "200": $gray-200,
-//   "300": $gray-300,
-//   "400": $gray-400,
-//   "500": $gray-500,
-   "600": $gray-600,
-   "700": $gray-700,
-//   "800": $gray-800,
-//   "900": $gray-900
+  //   "100": $gray-100,
+  "200": $gray-200,
+  //   "300": $gray-300,
+  //   "400": $gray-400,
+  //   "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  //   "800": $gray-800,
+  //   "900": $gray-900
 ), $grays);
 
 // $blue:    #007bff !default;
@@ -62,7 +62,7 @@ $colors: map-merge((
   // "gray-dark":  $gray-800
 ), $colors);
 
-$primary: $green;	
+$primary: $green;
 $secondary: $gray-600;
 // $success:       $green !default;
 // $info:          $cyan !default;
@@ -75,11 +75,11 @@ $theme-colors: ();
 $theme-colors: map-merge((
   "primary": $primary,
   "secondary":  $secondary,
-//   "success":    $success,
-//   "info":       $info,
-//   "warning":    $warning,
-//   "danger":     $danger,
-//   "light":      $light,
+  //   "success":    $success,
+  //   "info":       $info,
+  //   "warning":    $warning,
+  //   "danger":     $danger,
+  //   "light":      $light,
   "dark": $gray-700
 ), $theme-colors);
 // stylelint-enable
@@ -666,35 +666,35 @@ $nav-link-disabled-color: $gray-200;
 // $badge-pill-border-radius:          10rem !default;
 
 
-// // Modals
+// Modals
 
-// // Padding applied to the modal body
-// $modal-inner-padding:               15px !default;
+// Padding applied to the modal body
+$modal-inner-padding: 30px;
 
-// $modal-dialog-margin:               10px !default;
-// $modal-dialog-margin-y-sm-up:       30px !default;
+$modal-dialog-margin: 15px;
+$modal-dialog-margin-y-sm-up: 50px;
 
-// $modal-title-line-height:           $line-height-base !default;
+$modal-title-line-height: $line-height-base;
 
-// $modal-content-bg:                  $white !default;
-// $modal-content-border-color:        rgba($black,.2) !default;
-// $modal-content-border-width:        $border-width !default;
-// $modal-content-box-shadow-xs:       0 3px 9px rgba($black,.5) !default;
-// $modal-content-box-shadow-sm-up:    0 5px 15px rgba($black,.5) !default;
+$modal-content-bg: $white;
+$modal-content-border-color: $white;
+$modal-content-border-width: 0;
+$modal-content-box-shadow-xs: 0 0 43px rgba($black, .15);
+$modal-content-box-shadow-sm-up: 0 0 43px rgba($black, .15);
 
-// $modal-backdrop-bg:                 $black !default;
-// $modal-backdrop-opacity:            .5 !default;
-// $modal-header-border-color:         $gray-200 !default;
-// $modal-footer-border-color:         $modal-header-border-color !default;
-// $modal-header-border-width:         $modal-content-border-width !default;
-// $modal-footer-border-width:         $modal-header-border-width !default;
-// $modal-header-padding:              15px !default;
+$modal-backdrop-bg: $black;
+$modal-backdrop-opacity: .5;
+$modal-header-border-color: $gray-200;
+$modal-footer-border-color: $modal-header-border-color;
+$modal-header-border-width: $modal-content-border-width;
+$modal-footer-border-width: $modal-header-border-width;
+$modal-header-padding: 30px;
 
-// $modal-lg:                          800px !default;
-// $modal-md:                          500px !default;
-// $modal-sm:                          300px !default;
+$modal-lg: 800px;
+$modal-md: 500px;
+$modal-sm: 300px;
 
-// $modal-transition:                  transform .3s ease-out !default;
+$modal-transition: transform .3s ease-out;
 
 
 // // Alerts
@@ -799,12 +799,12 @@ $nav-link-disabled-color: $gray-200;
 // $carousel-transition:               transform .6s ease !default;
 
 
-// // Close
+// Close
 
-// $close-font-size:                   $font-size-base * 1.5 !default;
-// $close-font-weight:                 $font-weight-bold !default;
-// $close-color:                       $black !default;
-// $close-text-shadow:                 0 1px 0 $white !default;
+$close-font-size:                   $font-size-base * 1.5 !default;
+$close-font-weight:                 $font-weight-bold !default;
+$close-color:                       $black !default;
+$close-text-shadow:                 0 1px 0 $white !default;
 
 // // Code
 
@@ -820,10 +820,11 @@ $nav-link-disabled-color: $gray-200;
 // $pre-color:                         $gray-900 !default;
 // $pre-scrollable-max-height:         340px !default;
 
+$typo-font-size-xl: ($font-size-base * 1.375);
+$typo-line-height-xl: 1.63;
 
 $typo-font-size-lg: ($font-size-base * 1.125);
 $typo-line-height-lg: 1.18;
 
 $typo-font-size-sm: ($font-size-base * .875);
 $typo-line-height-sm: 1.71;
-

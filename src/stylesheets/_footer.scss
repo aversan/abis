@@ -1,22 +1,22 @@
 .footer {
-	background-color: theme-color("dark");
+  background-color: theme-color("dark");
 
-	&,
-	&-container {
-		height: 4.375rem;
-	}
+  &,
+  &-container {
+    height: 4.375rem;
+  }
 
-	&-text {
-		font-size: ($font-size-base * .8125);
-		color: $white;
-	}
+  &-text {
+    font-size: ($font-size-base * .8125);
+    color: $white;
+  }
 
-	&-link {
-		color: $white;
+  &-link {
+    color: $white;
 
-		&:hover,
-		&:focus {
-			color: $white;
-		}
-	}
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
 }

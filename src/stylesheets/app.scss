@@ -33,8 +33,8 @@
 // @import 'node_modules/bootstrap/scss/progress';
 // @import 'node_modules/bootstrap/scss/media';
 // @import 'node_modules/bootstrap/scss/list-group';
-// @import 'node_modules/bootstrap/scss/close';
-// @import 'node_modules/bootstrap/scss/modal';
+@import 'node_modules/bootstrap/scss/close';
+@import 'node_modules/bootstrap/scss/modal';
 // @import 'node_modules/bootstrap/scss/tooltip';
 // @import 'node_modules/bootstrap/scss/popover';
 // @import 'node_modules/bootstrap/scss/carousel';
@@ -46,7 +46,7 @@
 @import 'node_modules/bootstrap/scss/utilities/borders';
 // @import 'node_modules/bootstrap/scss/utilities/clearfix';
 @import 'node_modules/bootstrap/scss/utilities/display';
-// @import 'node_modules/bootstrap/utilities/embed';
+@import 'node_modules/bootstrap/scss/utilities/embed';
 @import 'node_modules/bootstrap/scss/utilities/flex';
 // @import 'node_modules/bootstrap/scss/utilities/float';
 @import 'node_modules/bootstrap/scss/utilities/position';
