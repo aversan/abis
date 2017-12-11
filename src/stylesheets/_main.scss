@@ -20,6 +20,8 @@ $main-section-space-2: $main-section-space;
     background-color: $white;
     box-shadow: 0 1px 21px rgba($black, .19);
     width: 360px;
+    position: relative;
+    z-index: 2;
 
     &-logo {
       height: 77px;
@@ -45,7 +47,7 @@ $main-section-space-2: $main-section-space;
     top: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: 1;
   }
 }
 
