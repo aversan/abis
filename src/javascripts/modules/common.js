@@ -63,7 +63,7 @@ $(() => {
       self.marker = new google.maps.Marker({
         position: new google.maps.LatLng(self.coords[0],self.coords[1]),
         map: self.map,
-        icon: '../images/abis-marker.png',
+        icon: 'http://e52ddfe8.ngrok.io/abis/images/abis-marker.png',
       });
     };
 
