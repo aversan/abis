@@ -27,12 +27,12 @@ $(() => {
     this.id = id;
 
     this.renderMap = () => {
-      if(typeof self.coords === undefined){
-        self.coords = [55.754943, 37.557048];
+      if(typeof self.coords === 'undefined'){
+        self.coords = [56.1310603, 37.9123714];
       }
       const mapOptions = {
         zoom: 17,
-        center: new google.maps.LatLng(self.coords[0] - 0.0005, self.coords[1]),
+        center: new google.maps.LatLng(self.coords[0], self.coords[1]),
         scrollwheel: false,
         navigationControl: false,
         mapTypeControl: false,
@@ -55,15 +55,31 @@ $(() => {
     };
 
     this.redrawMap = () => {
-      document.getElementById('map'+self.id).innerHTML = '';
+      document.getElementById('map' + self.id).innerHTML = '';
       self.renderMap();
+    };
+
+    var image = {
+      url: 'http://e52ddfe8.ngrok.io/abis/images/abis-marker.png',
+      size: new google.maps.Size(200, 200),
+      origin: new google.maps.Point(0, 0),
+      anchor: new google.maps.Point(40, 100),
     };
 
     this.renderMarker = () => {
       self.marker = new google.maps.Marker({
-        position: new google.maps.LatLng(self.coords[0],self.coords[1]),
+        position: new google.maps.LatLng(self.coords[0], self.coords[1] - '0.00010'),
         map: self.map,
-        icon: 'http://e52ddfe8.ngrok.io/abis/images/abis-marker.png',
+        label: {
+          text: 'Крайняя улица, 2',
+          color: 'red',
+          fontSize: '14px',
+          fontWeight: 'bold',
+        },
+        labelInBackground: false,
+        labelAnchor: new google.maps.Point(15, 65),
+        labelClass: "marker-label",
+        icon: image,
       });
     };
 

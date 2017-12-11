@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ba4c8d-e239-4c1e-946b-b8d04e81931c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/index.html" afterPath="$PROJECT_DIR$/src/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/layouts/application.html" afterPath="$PROJECT_DIR$/src/html/layouts/application.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/docs.html" afterPath="$PROJECT_DIR$/src/html/main/docs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/map.html" afterPath="$PROJECT_DIR$/src/html/main/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/main/production.html" afterPath="$PROJECT_DIR$/src/html/main/production.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javascripts/modules/common.js" afterPath="$PROJECT_DIR$/src/javascripts/modules/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javascripts/modules/product-slider.js" afterPath="$PROJECT_DIR$/src/javascripts/modules/product-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylesheets/_common.scss" afterPath="$PROJECT_DIR$/src/stylesheets/_common.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/main/product.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="57" column="58" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="58" />
+            <state relative-caret-position="238">
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -31,21 +37,9 @@
       <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/main/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_product-slider.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylesheets/_product-slider.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
-              <folding>
-                <element signature="e#514#14833#2" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +47,8 @@
       <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="680">
+              <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -73,8 +67,8 @@
       <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stylesheets/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="65" column="67" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="67" />
+            <state relative-caret-position="410">
+              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -102,21 +96,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <file leaf-file-name="production.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/main/production.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="566">
+              <caret line="44" column="75" lean-forward="false" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/main/production.html">
+      <file leaf-file-name="docs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/html/main/docs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="442">
+              <caret line="38" column="172" lean-forward="false" selection-start-line="38" selection-start-column="172" selection-end-line="38" selection-end-column="172" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-slider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javascripts/modules/product-slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -152,6 +156,7 @@
       <find>map</find>
       <find>brMap</find>
       <find>mark</find>
+      <find>render</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/javascripts/modules/example.js" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/hero.js" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/index.js" />
-        <option value="$PROJECT_DIR$/src/javascripts/modules/product-slider.js" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/scroll-to.js" />
         <option value="$PROJECT_DIR$/src/javascripts/app.js" />
         <option value="$PROJECT_DIR$/src/stylesheets/_buttons.scss" />
@@ -184,21 +188,22 @@
         <option value="$PROJECT_DIR$/src/stylesheets/_variables.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/_feedback.scss" />
         <option value="$PROJECT_DIR$/src/stylesheets/app.scss" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_common.scss" />
         <option value="$PROJECT_DIR$/src/html/main/use.html" />
         <option value="$PROJECT_DIR$/src/html/main/hero.html" />
         <option value="$PROJECT_DIR$/src/html/main/customers.html" />
         <option value="$PROJECT_DIR$/src/html/shared/header.html" />
-        <option value="$PROJECT_DIR$/src/html/main/docs.html" />
         <option value="$PROJECT_DIR$/src/html/main/feedback.html" />
         <option value="$PROJECT_DIR$/src/html/main/product.html" />
         <option value="$PROJECT_DIR$/src/stylesheets/_product-slider.scss" />
-        <option value="$PROJECT_DIR$/src/html/main/map.html" />
-        <option value="$PROJECT_DIR$/src/html/main/production.html" />
-        <option value="$PROJECT_DIR$/src/stylesheets/_main.scss" />
         <option value="$PROJECT_DIR$/src/html/layouts/application.html" />
+        <option value="$PROJECT_DIR$/src/html/main/map.html" />
         <option value="$PROJECT_DIR$/src/html/index.html" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_main.scss" />
+        <option value="$PROJECT_DIR$/src/javascripts/modules/product-slider.js" />
         <option value="$PROJECT_DIR$/src/javascripts/modules/common.js" />
+        <option value="$PROJECT_DIR$/src/html/main/production.html" />
+        <option value="$PROJECT_DIR$/src/stylesheets/_common.scss" />
+        <option value="$PROJECT_DIR$/src/html/main/docs.html" />
       </list>
     </option>
   </component>
@@ -263,65 +268,6 @@
               <item name="abis" type="b2602c69:ProjectViewProjectNode" />
               <item name="abis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="macros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,12 +276,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,7 +289,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://A:/web/abis/src/html/index.html&#10;appl&#9;FILE&#9;file://A:/web/abis/src/html/layouts/application.html&#10;production&#9;FILE&#9;file://A:/web/abis/src/html/main/production.html&#10;main&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_main.scss&#10;map&#9;FILE&#9;file://A:/web/abis/src/html/main/map.html&#10;co&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;common.&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_common.scss&#10;var&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_variables.scss&#10;product-&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_product-slider.scss&#10;product&#9;FILE&#9;file://A:/web/abis/src/html/main/product.html&#10;doc&#9;FILE&#9;file://A:/web/abis/src/html/main/docs.html&#10;common&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;header&#9;FILE&#9;file://A:/web/abis/src/html/shared/header.html&#10;embed&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;embed.&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;icon&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss&#10;feedback&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_feedback.scss&#10;typo.&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_typo.scss&#10;icon.scs&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss" />
+    <property name="SearchEverywhereHistoryKey" value="produ&#9;FILE&#9;file://A:/web/abis/src/html/main/production.html&#10;docs.&#9;FILE&#9;file://A:/web/abis/src/html/main/docs.html&#10;index&#9;FILE&#9;file://A:/web/abis/src/html/index.html&#10;appl&#9;FILE&#9;file://A:/web/abis/src/html/layouts/application.html&#10;production&#9;FILE&#9;file://A:/web/abis/src/html/main/production.html&#10;main&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_main.scss&#10;map&#9;FILE&#9;file://A:/web/abis/src/html/main/map.html&#10;co&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;common.&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_common.scss&#10;var&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_variables.scss&#10;product-&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_product-slider.scss&#10;product&#9;FILE&#9;file://A:/web/abis/src/html/main/product.html&#10;doc&#9;FILE&#9;file://A:/web/abis/src/html/main/docs.html&#10;common&#9;FILE&#9;file://A:/web/abis/src/javascripts/modules/common.js&#10;header&#9;FILE&#9;file://A:/web/abis/src/html/shared/header.html&#10;embed&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;embed.&#9;FILE&#9;file://A:/web/abis/node_modules/bootstrap/scss/utilities/_embed.scss&#10;icon&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss&#10;feedback&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_feedback.scss&#10;typo.&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_typo.scss&#10;icon.scs&#9;FILE&#9;file://A:/web/abis/src/stylesheets/_icon.scss" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -376,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512983702923</updated>
-      <workItem from="1512983720732" duration="14135000" />
+      <workItem from="1512983720732" duration="19009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14135000" />
+    <option name="totallyTimeSpent" value="19009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -476,14 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/product-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javascripts/modules/scroll-to.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -571,7 +503,7 @@
         <state relative-caret-position="986">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <marker date="1512998877572" expanded="true" signature="31:419" ph="{...}" />
+            <marker date="1512999252785" expanded="true" signature="31:419" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -648,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/main/docs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="74" lean-forward="false" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/main/feedback.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -690,34 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/src/html/main/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/main/production.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
           <folding />
         </state>
       </provider>
@@ -730,29 +630,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/main/map.html">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="-202">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascripts/modules/product-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javascripts/modules/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="65" column="67" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="67" />
+        <state relative-caret-position="410">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/main/production.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="44" column="75" lean-forward="false" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/main/docs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="172" lean-forward="false" selection-start-line="38" selection-start-column="172" selection-end-line="38" selection-end-column="172" />
+          <folding />
         </state>
       </provider>
     </entry>
