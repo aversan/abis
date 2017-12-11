@@ -31,7 +31,7 @@ $(() => {
         self.coords = [56.1310603, 37.9123714];
       }
       const mapOptions = {
-        zoom: 17,
+        zoom: 16,
         center: new google.maps.LatLng(self.coords[0], self.coords[1]),
         scrollwheel: false,
         navigationControl: false,
@@ -39,11 +39,11 @@ $(() => {
         scaleControl: false,
         streetViewControl : true,
         streetViewControlOptions : {
-          position: google.maps.ControlPosition.LEFT_BOTTOM
+          position: google.maps.ControlPosition.LEFT_BOTTOM,
         },
         zoomControl: true,
         zoomControlOptions: {
-          position: google.maps.ControlPosition.LEFT_BOTTOM
+          position: google.maps.ControlPosition.LEFT_BOTTOM,
         },
         draggable: true,
       };
@@ -60,15 +60,15 @@ $(() => {
     };
 
     var image = {
-      url: 'http://e52ddfe8.ngrok.io/abis/images/abis-marker.png',
-      size: new google.maps.Size(200, 200),
+      url: '../images/abis-marker.png',
+      size: new google.maps.Size(245, 245),
       origin: new google.maps.Point(0, 0),
-      anchor: new google.maps.Point(40, 100),
+      anchor: new google.maps.Point(45, 100),
     };
 
     this.renderMarker = () => {
       self.marker = new google.maps.Marker({
-        position: new google.maps.LatLng(self.coords[0], self.coords[1] - '0.00010'),
+        position: new google.maps.LatLng(self.coords[0], self.coords[1] - '0.00020'),
         map: self.map,
         label: {
           text: 'Крайняя улица, 2',
@@ -90,7 +90,6 @@ $(() => {
   function renderMaps(mapPrints) {
     for(let i in mapPrints){
       if(typeof window.mapDraw[i] === 'undefined'){
-        console.log(1);
         const mapObject = new brMap(window.APP[i], i);
         window.mapDraw[i] = { 'object': mapObject, 'centers': window.APP[i] };
       }
