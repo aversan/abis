@@ -9,3 +9,10 @@
   {% include "main/feedback.html" %}
   {% include "main/map.html" %}
 {% endblock %}
+
+{% block javascript %}
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script>window.APP = {"1":["55.754943","37.557048"]};</script>
+<script src="javascripts/jquery.min.js"></script>
+<script src="javascripts/app.js"></script>
+{% endblock %}
