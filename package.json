@@ -67,6 +67,7 @@
   },
   "devDependencies": {
     "autosize": "^4.0.0",
+    "babili-webpack-plugin": "^0.1.2",
     "bootstrap": "^4.0.0-beta.2",
     "chai": "^3.5.0",
     "gulp-filter": "^5.0.1",
