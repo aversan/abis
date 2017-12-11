@@ -1,0 +1,79 @@
+@mixin sprite($filename) {
+  & {
+    @if $filename == icon-arrow-next-light {
+      height: 76px;
+      width: 43px;
+    }
+    @if $filename == icon-arrow-next-white {
+      height: 87px;
+      width: 43px;
+    }
+    @if $filename == icon-arrow-prev-light {
+      height: 76px;
+      width: 43px;
+    }
+    @if $filename == icon-arrow-prev-white {
+      height: 87px;
+      width: 43px;
+    }
+    @if $filename == icon-email-primary {
+      height: 21px;
+      width: 27px;
+    }
+    @if $filename == icon-email-white {
+      height: 21px;
+      width: 27px;
+    }
+    @if $filename == icon-rarr-white {
+      height: 7px;
+      width: 25px;
+    }
+    @if $filename == icon-youtube-white {
+      height: 22px;
+      width: 31px;
+    }
+  }
+
+  &::before {
+    @if $filename == icon-arrow-next-light {
+      background-position: -86px 0px;
+      height: 76px;
+      width: 43px;
+    }
+    @if $filename == icon-arrow-next-white {
+      background-position: 0px 0px;
+      height: 87px;
+      width: 43px;
+    }
+    @if $filename == icon-arrow-prev-light {
+      background-position: -129px 0px;
+      height: 76px;
+      width: 43px;
+    }
+    @if $filename == icon-arrow-prev-white {
+      background-position: -43px 0px;
+      height: 87px;
+      width: 43px;
+    }
+    @if $filename == icon-email-primary {
+      background-position: -31px -87px;
+      height: 21px;
+      width: 27px;
+    }
+    @if $filename == icon-email-white {
+      background-position: -58px -87px;
+      height: 21px;
+      width: 27px;
+    }
+    @if $filename == icon-rarr-white {
+      background-position: -129px -76px;
+      height: 7px;
+      width: 25px;
+    }
+    @if $filename == icon-youtube-white {
+      background-position: 0px -87px;
+      height: 22px;
+      width: 31px;
+    }
+  }
+}

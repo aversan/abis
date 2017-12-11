@@ -1,0 +1,46 @@
+.header {
+  &,
+  &-container,
+  &-wrapper {
+    height: 90px;
+  }
+  
+  &-navigation {
+    &-link {
+      font-weight: 500;
+    }
+  }
+
+  &-logo {
+    &-image {
+      height: 80px;
+      width: auto;
+    }
+  }
+
+  &-icon-button {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    border-radius: 18px;
+    border: 2px solid $gray-300;
+    position: relative;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background-color: theme-color("primary");
+      border-color: theme-color("primary");
+    }
+    
+    &:hover .icon-sprite.icon-email-primary {
+      @include sprite('icon-email-white');
+    }
+  }
+
+  &.fixed-top {
+    background-color: $white;
+  }
+}

@@ -1,0 +1,48 @@
+.icon {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.icon-sprite {
+  &:before {
+    content: '';
+    display: inline-block;
+    background-image: url('../images/sprite.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  &.icon-email-primary {
+    @include sprite('icon-email-primary');
+  }
+
+  &.icon-rarr-white {
+    @include sprite('icon-rarr-white'); 
+  }
+
+  &.icon-youtube-white {
+    @include sprite('icon-youtube-white'); 
+  }
+
+  &.icon-arrow-prev-white {
+    @include sprite('icon-arrow-prev-white'); 
+  }
+
+  &.icon-arrow-next-white {
+    @include sprite('icon-arrow-next-white'); 
+  }
+
+  &.icon-arrow-prev-light {
+    @include sprite('icon-arrow-prev-light'); 
+  }
+
+  &.icon-arrow-next-light {
+    @include sprite('icon-arrow-next-light'); 
+  }
+}

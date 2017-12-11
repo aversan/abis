@@ -1,0 +1,9 @@
+.form-control {
+  &::placeholder {
+    font-size: .875rem;
+  }    
+
+  &-textarea-h3 {
+      height: 11.875rem;
+  }
+}

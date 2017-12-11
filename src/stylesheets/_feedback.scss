@@ -1,0 +1,10 @@
+.feedback {
+  &,
+  & > .container {
+    height: 560px;
+  }
+  
+  &-footer {
+    padding-top: .625em;
+  }
+}

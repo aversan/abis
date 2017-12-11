@@ -1,0 +1,27 @@
+{% from 'macros/helpers.html' import sprite %}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    {% block head %}{% endblock %}
+  </head>
+  <body class="page">
+    {% block header %}
+      {% include "shared/header.html" %}
+    {% endblock %}
+    <div class="page-content">
+      {% block content %}{% endblock %}
+    </div>
+    {% block footer %}
+      {% include "shared/footer.html" %}
+    {% endblock %}
+    {% block javascript %}
+      <script src="javascripts/jquery.min.js"></script>
+      <script src="javascripts/app.js"></script>
+    {% endblock %}
+  </body>
+</html>

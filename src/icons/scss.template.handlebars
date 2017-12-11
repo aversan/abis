@@ -1,0 +1,20 @@
+@mixin sprite($filename) {
+  & {
+    {{#sprites}}
+    @if $filename == {{name}} {
+      height: {{px.height}};
+      width: {{px.width}};
+    }
+    {{/sprites}}
+  }
+
+  &::before {
+    {{#sprites}}
+    @if $filename == {{name}} {
+      background-position: {{px.offset_x}} {{px.offset_y}};
+      height: {{px.height}};
+      width: {{px.width}};
+    }
+    {{/sprites}}
+  }
+}

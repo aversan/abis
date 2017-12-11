@@ -1,0 +1,14 @@
+.btn-primary {
+	color: $white;
+}
+
+.btn {
+	&.text-uppercase {
+		font-size: .875rem;
+		line-height: 1.7142;
+	}
+
+	.icon {
+		top: -.15rem;
+	}
+}
