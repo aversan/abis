@@ -2982,6 +2982,12 @@ mark,
     opacity: 1;
     pointer-events: auto; }
 
+.main-section-bg-investors {
+  background-image: url("../images/investors.jpg"); }
+  .main-section-bg-investors,
+  .main-section-bg-investors > .container {
+    height: 559px; }
+
 .hero-section.cover-background {
   background-image: url("../images/hero.jpg");
   padding-top: 76px;

@@ -15,6 +15,14 @@ export default class Chart {
           current.siblings().removeClass('active').end().addClass('active');
           $slides.removeClass('active').eq(index).addClass('active');
         }, () => {});
+
+        page.on('click', () => {
+          const current = $(this);
+          const index = $pagination.index(current);
+          current.siblings().removeClass('active').end().addClass('active');
+          $slides.removeClass('active').eq(index).addClass('active');
+        });
+
       })
     });
   }

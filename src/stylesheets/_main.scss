@@ -12,10 +12,6 @@ $main-section-space-2: $main-section-space;
     position: relative;
   }
 
-  &.cover-background {
-    //background-image: url('../images/main-map.jpg');
-  }
-
   &-pop {
     background-color: $white;
     box-shadow: 0 1px 21px rgba($black, .19);
@@ -212,6 +208,15 @@ $main-section-space-2: $main-section-space;
         opacity: 1;
         pointer-events: auto;
       }
+    }
+  }
+
+  &-bg-investors {
+    background-image: url('../images/investors.jpg');
+
+    &,
+    & > .container {
+      height: 559px;
     }
   }
 }
